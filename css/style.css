@@ -70,6 +70,9 @@ li {
     padding: 4px 16px;
     line-height: 32px;
   }
+  .dropdown-container li:hover a  {
+    color: #6610f2 !important;
+  }
   .dropdown-container li a {
     width: 100%;
     color: black !important;

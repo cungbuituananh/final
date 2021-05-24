@@ -1,5 +1,5 @@
 // console.log("validation");
-const classModal = document.getElementById("classesModal");
+const classModal = document.getElementById("eventModal");
 const formSchedule = document.getElementById("form-schedule");
 const fullName = document.getElementById("full-name");
 const email = document.getElementById("email");
