@@ -6,7 +6,7 @@ $('.slide-featured').slick({
     centerPadding: 10,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 992,
         settings: {
           arrows: false,
           centerMode: true,

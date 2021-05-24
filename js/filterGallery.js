@@ -1,7 +1,6 @@
 
 
 // external js: isotope.pkgd.js
-
 // init Isotope
 var $grid = $('.gallery-container-image').isotope({
     itemSelector: '.gallery-image',
@@ -11,7 +10,6 @@ console.log($grid);
   // bind filter button click
   $('.gallery-filter').on( 'click', 'button', function() {
     var filterValue = $( this ).attr('data-type');
-    // use filterFn if matches value
     filterValue = '.'+filterValue;
     $grid.isotope({ filter: filterValue });
 
