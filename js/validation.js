@@ -1,4 +1,4 @@
-console.log("validation");
+// console.log("validation");
 const classModal = document.getElementById("classesModal")
 const formSchedule = document.getElementById("form-schedule");
 const fullName = document.getElementById("full-name");
@@ -11,6 +11,7 @@ const myModal = new bootstrap.Modal(classModal, {
 
 let checkName = () => {
     let nameContent = fullName.value.trim(); 
+
     if (nameContent.length > 0 ) {
         return true;
     }
@@ -19,6 +20,7 @@ let checkName = () => {
 
 let checkPhone = () => {
     let phoneContent = phoneNumber.value.trim(); 
+
     if (!isNaN(phoneContent) && phoneContent != "") {
         return true;
     }
@@ -28,23 +30,24 @@ let checkPhone = () => {
 let checkEmail = () => {
     let emailContent = email.value.trim().toLowerCase();
     let re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
     if (re.test(emailContent)) {
         return true;
     }
+
     return false
 }
 
 
 formSchedule.addEventListener("submit" , (e) => {
     e.preventDefault();
-    // console.log("check check");
-    // console.log(fullName);
+
     let flag = true;
+
     if ( checkName()) {
         // console.log("Right !");
         fullName.classList.add("is-valid");
         fullName.classList.remove("is-invalid")
-
     } else {
         // console.log("Wrong");
         fullName.classList.add("is-invalid");
