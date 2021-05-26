@@ -4,11 +4,11 @@
 // init Isotope
 var $grid = $('.gallery-container-image').isotope({
     itemSelector: '.gallery-image',
-    layoutMode: 'masonry'
+    layoutMode:'fitRows'
   });
 
   // bind filter button click
-$('.gallery-filter').on( 'click', 'button', function() {
+$('.gallery-filter').on('click', 'button', function() {
     var filterValue = $( this ).attr('data-type');
     filterValue = '.'+filterValue;
     $grid.isotope({ filter: filterValue });

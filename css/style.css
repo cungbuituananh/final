@@ -12,9 +12,7 @@ li {
   list-style: none;
 }
 
-
 .banner {
-  
   min-height: 600px;
   height: calc(100vh);
   background-size: cover;
@@ -27,9 +25,10 @@ li {
   color: white;
 }
 .brand h3 a:hover {
-  color:white;
+  color: white;
 }
-.contact-top, .social-top {
+.contact-top,
+.social-top {
   gap: 16px;
 }
 .social-top a:hover,
@@ -70,7 +69,7 @@ li {
     padding: 4px 16px;
     line-height: 32px;
   }
-  .dropdown-container li:hover a  {
+  .dropdown-container li:hover a {
     color: #6610f2 !important;
   }
   .dropdown-container li a {
@@ -84,16 +83,15 @@ li {
     padding: 25px !important;
   }
   .featured-content h2,
-.schedule-content h2,
-.about-content h2,
-.events-content h2,
-.gallery-content h2,
-.get-touch-content h2,
-.team-content h2
- {
-  font-size: 48px !important;
-  font-weight: 700;
-}
+  .schedule-content h2,
+  .about-content h2,
+  .events-content h2,
+  .gallery-content h2,
+  .get-touch-content h2,
+  .team-content h2 {
+    font-size: 48px !important;
+    font-weight: 700;
+  }
 }
 @media (min-width: 1420px) {
   .slick-slide {
@@ -107,7 +105,7 @@ li {
 .team-sub-image {
   overflow: hidden;
 }
-.team-sub-image img{
+.team-sub-image img {
   width: 100%;
   object-fit: cover;
 }
@@ -122,33 +120,31 @@ li {
 /* navbar mobile */
 .navMobile-ctn span {
   font-size: 16px;
-
 }
 .navMobile-ctn span:hover i {
   cursor: pointer;
-  font-size:24px;
-
+  font-size: 24px;
 }
 .overlay {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1; 
+  z-index: 1;
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.247);
   background-color: #6610f2;
-  overflow-x: hidden; 
-  transition: 0.9s; 
+  overflow-x: hidden;
+  transition: 0.9s;
 }
 
 .overlay-content {
   font-size: 28px;
   position: relative;
-  top: 25%; 
-  width: 100%; 
-  text-align: center; 
-  margin-top: 30px; 
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .overlay-content i {
@@ -159,8 +155,8 @@ li {
   padding: 8px;
   text-decoration: none;
   color: #ffffff;
-  display: block; 
-  transition: 0.3s; 
+  display: block;
+  transition: 0.3s;
 }
 
 .overlay-content a:hover {
@@ -181,46 +177,43 @@ li {
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #6610f2;
-    z-index: 10;
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #6610f2;
+  z-index: 10;
+}
 
+.banner {
+  position: relative;
+}
 
-  .banner {
-    position: relative;
-  }
-
-  .title {
-    width: 100%;
-    position: absolute;
-    top: 40%;
-  
-  }
-  .title p {
-    font-weight: normal;
-font-size: 18px;
-  }
-  .title h1 {
-    font-size: 64px;
-    font-weight: 600;
-  }
-  .title i {
-    font-size: 50px;
-  }
+.title {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+.title p {
+  font-weight: normal;
+  font-size: 18px;
+}
+.title h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.title i {
+  font-size: 50px;
+}
 .title a:hover {
   transform: scale(1.1);
-  color: white
+  color: white;
 }
-  .title a:hover i {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    color: white;
-  }
-
+.title a:hover i {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: white;
+}
 .intro .line {
   width: 80px;
   height: 2px;
@@ -244,8 +237,8 @@ font-size: 18px;
   position: absolute;
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-color: rgba(146, 146, 146, 0);
 }
 .slide-items:hover .featured-overlay {
@@ -253,11 +246,11 @@ font-size: 18px;
   z-index: 2;
 }
 .slide-items img {
-  transition: .6s ease-out;
+  transition: 0.6s ease-out;
 }
 .slide-items:hover img {
   transform: scale(1.2);
-} 
+}
 .slide-items img {
   width: 100%;
   object-fit: cover;
@@ -310,19 +303,19 @@ font-size: 18px;
 .featured-btn:hover button,
 .price-item button:hover,
 .schedule-context button:hover {
-  background-color:  rgba(255, 255, 255, 0.781);
-  color: #6610f2; 
+  background-color: rgba(255, 255, 255, 0.781);
+  color: #6610f2;
   border: 1px solid #6610f2;
 }
-.featured-btn:hover button a
- {
+.featured-btn:hover button a {
   color: #6610f2;
-} 
+}
 .featured-classes {
   position: relative;
 }
 
-#nextSlide, #prevSlide {
+#nextSlide,
+#prevSlide {
   position: absolute;
   top: 50%;
   padding: 0 8px;
@@ -331,7 +324,6 @@ font-size: 18px;
   color: #6610f2;
   background: none;
   font-size: 26px;
-  
 }
 
 #prevSlide {
@@ -347,8 +339,7 @@ font-size: 18px;
 .events-content h2,
 .gallery-content h2,
 .get-touch-content h2,
-.team-content h2
- {
+.team-content h2 {
   font-size: 38px;
   font-weight: 700;
 }
@@ -372,7 +363,7 @@ font-size: 18px;
 }
 .schedule-context {
   height: 100%;
- padding: 8px 16px;
+  padding: 8px 16px;
 }
 
 .slide-wrap {
@@ -382,7 +373,7 @@ font-size: 18px;
 /* About */
 
 .about-image {
- overflow: hidden;
+  overflow: hidden;
 }
 .about-image img {
   width: 100%;
@@ -402,14 +393,15 @@ font-size: 18px;
   height: 100%;
   width: 100%;
 }
-.event-context  {
+.event-context {
   padding: 0 28px !important;
 }
 
 /* Gallery */
 .gallery-content .line,
 .price-content .line,
-.event-content .line { 
+.event-content .line,
+.frequently-content .line {
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
@@ -436,22 +428,21 @@ font-size: 18px;
   overflow: hidden;
   height: 300px;
   border-radius: 5px;
-  transition: .6s ease-out;
+  transition: 0.6s ease-out;
 }
 .gallery-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  transition: .6s ease-out;
+  transition: 0.6s ease-out;
 }
-.gallery-image:hover{
+.gallery-image:hover {
   transform: scale(1.1);
 }
 .gallery-filter .active {
   background-color: #ffffff;
   color: #6610f2;
-
 }
 .show-gallery {
   display: block;
@@ -470,11 +461,11 @@ font-size: 18px;
 
 /* footer */
 footer {
-  padding:40px 0;
+  padding: 40px 0;
   background: #333333;
   color: white;
 }
-.form-floating>label {
+.form-floating > label {
   color: black;
 }
 .input-foo {
@@ -483,14 +474,14 @@ footer {
 .input-btn-foo {
   height: 100%;
   position: absolute;
-  top:0;
-  right:0
+  top: 0;
+  right: 0;
 }
 .input-btn-foo button {
   height: 100%;
   padding: 0 16px;
   border: none;
-  border-radius: 0 .25rem .25rem 0;
+  border-radius: 0 0.25rem 0.25rem 0;
   background-color: #6610f2;
   color: white;
   font-size: 16px;
@@ -514,60 +505,60 @@ footer a:hover {
 
 .social-member {
   gap: 16px;
-  
 }
-.social-member a { 
+.social-member a {
   color: #6610f2;
 }
 
 .team-sub-content h2 {
-font-family: Quicksand;
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
 }
 
 /* Price */
 .price-wrap {
   border-radius: 5px;
   padding: 36px 48px;
-  margin:28px 12px;
+  margin: 28px 12px;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
 }
-.price-item h2{
+.price-item h2 {
   font-weight: 500;
-font-size: 28px;
+  font-size: 28px;
 }
 .price-item button {
-  border: 1px solid #6610f2 ;
-  margin-top:32px;
+  border: 1px solid #6610f2;
+  margin-top: 32px;
   width: 100%;
 }
 .price-tag p {
   color: #6610f2;
   font-weight: 500;
-font-size: 36px;
+  font-size: 36px;
 }
 .price-tag p span {
   font-weight: normal;
   font-size: 16px;
 }
 .price-note {
-  color: rgb(167, 167, 167)
+  color: rgb(167, 167, 167);
 }
 .price-context p {
   font-size: 20px;
 }
 .price-context p strike {
-  color:  rgb(167, 167, 167);
+  color: rgb(167, 167, 167);
 }
 .price-content h2,
-.event-content h2{
+.event-content h2,
+frequently-content h2 {
   font-size: 32px;
   font-weight: 600;
 }
 .price-content p {
-  padding: 24px 32
+  padding: 24px 32;
 }
 
 /* events */
@@ -588,7 +579,7 @@ font-size: 36px;
 }
 
 .event-context ul li {
- list-style-type: disc;
+  list-style-type: disc;
 }
 
 .accordion-button:not(.collapsed) {
