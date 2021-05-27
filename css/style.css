@@ -294,7 +294,8 @@ li {
   font-weight: 500;
 }
 .featured-btn button a,
-.event-context button a {
+.event-context button a,
+.button-mix a {
   color: white;
 }
 .slide-items:hover .featured-btn {
@@ -347,6 +348,14 @@ li {
 .team-content h2 {
   font-size: 38px;
   font-weight: 700;
+}
+
+.about-content a {
+  color: #6610f2;
+}
+.about-content a:hover {
+  color: #6610f2;
+  font-weight: 500;
 }
 .line {
   margin-bottom: 36px;
@@ -406,7 +415,8 @@ li {
 .gallery-content .line,
 .price-content .line,
 .event-content .line,
-.frequently-content .line {
+.frequently-content .line,
+.classes-content .line {
   margin-bottom: 36px;
   margin-left: auto;
   margin-right: auto;
@@ -556,7 +566,8 @@ footer a:hover {
 }
 .price-content h2,
 .event-content h2,
-frequently-content h2 {
+.frequently-content h2,
+.classes-content h2 {
   font-size: 32px;
   font-weight: 600;
 }
@@ -573,9 +584,16 @@ frequently-content h2 {
   object-fit: cover;
 }
 
-.event-title h2 {
+.event-title h2,
+.classes-detail h4 {
   font-weight: 400;
   color: #6610f2;
+}
+.classes-detail p {
+  font-weight: 600;
+}
+.classes-detail p i {
+  font-size: 20px;
 }
 .event-title h4 {
   font-weight: 200;
@@ -592,4 +610,13 @@ frequently-content h2 {
 }
 .accordion-body ul li {
   list-style-type: disc !important;
+}
+
+.classes-detail {
+  overflow: hidden;
+}
+.classes-detail img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
 }
