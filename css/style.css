@@ -222,8 +222,9 @@ li {
 
 /* Featured  */
 .slick-current.slick-center {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: transform 1s;
+
 }
 .slick-slide {
   padding: 20px;
@@ -321,9 +322,13 @@ li {
   padding: 0 8px;
   z-index: 4;
   border: none;
-  color: #6610f2;
+  color: #d6d6d6;
   background: none;
   font-size: 26px;
+}
+#nextSlide:hover,
+#prevSlide:hover {
+  color: #9b9b9b;
 }
 
 #prevSlide {
