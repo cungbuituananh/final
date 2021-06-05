@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../Images/logo.png" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style2.css">
 
         <!-- Fancy Box -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -41,95 +42,18 @@
     <title>Angel Yoga - HomePage</title>
   </head>
   <body>
-  <!-- Gallery -->
-  <div id="gallery-ctn" class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-12">
-          <div class="gallery-content align-items-center text-center">
-                <div class="line"></div>
-                <h2>Thư Viện Aerial</h2>
-          </div>
-        </div>
-        <div class="col-12">
-          <div id="gallery-btn" class="gallery-filter text-center">
-                  <button class="filter-btn active" data-type="gallery-image">Tất cả</button>
-                  <button class="filter-btn" data-type="fitness">Fitness</button>
-                  <button class="filter-btn" data-type="basic">Basic</button>
-                  <button class="filter-btn" data-type="dance">Dance</button>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="row gallery-container-image">
-            <div class="col-6 col-md-4 px-3 py-3 gallery-image fitness">
-                <a href="./images/gallery/all-fitness.jpeg" data-fancybox="images">
-                  <img src="./images/gallery/all-fitness.jpeg" alt="" >
-                </a>
-            </div>
-            <div class="col-6 col-md-4 px-3 py-3 gallery-image basic">
-              <a href="./images/gallery/all-basic.jpeg" data-fancybox="images">
-                <img src="./images/gallery/all-basic.jpeg" alt="" >
-              </a>
-            </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image basic">
-                    <a href="./images/gallery/all-basic1.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-basic1.jpeg" alt="" >
-                    </a>
-                  </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image fitness">
-                    <a href="./images/gallery/all-fitness1.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-fitness1.jpeg" alt="" >
-                    </a>
-                  </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image dance">
-                    <a href="./images/gallery/all-dance.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-dance.jpeg" alt="" >
-                    </a>
-                  </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image dance">
-                    <a href="./images/gallery/all-dance1.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-dance1.jpeg" alt="" >
-                    </a>
-                  </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image fitness">
-                    <a href="./images/gallery/all-fitness2.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-fitness2.jpeg" alt="" >
-                    </a>
-                  </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image dance">
-                    <a href="./images/gallery/all-dance2.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-dance2.jpeg" alt="" >
-                    </a>
-                  </div>
-                  <div class="col-6 col-md-4 px-3 py-3 gallery-image dance">
-                    <a href="./images/gallery/all-dance3.jpeg" data-fancybox="images">
-                      <img src="./images/gallery/all-dance3.jpeg" alt="" >
-                    </a>
-                  </div>
-      
-          </div>
-        </div>
-    </div>
-</div>
 
-<!-- Chat box -->
-<div class="floating-chat">
-  <i class="bi bi-chat-dots"></i>
-  <div class="chat">
-      <div class="header ">
-          <p class="m-0">Chat với Angel Studio</p>
-          <button>
-            <i class="bi bi-x"></i>
-          </button>               
-      </div>
-      <ul class="messages">
-          <li class="other">Xin chào! Vui lòng để lại tin nhắn, chúng tôi sẽ phản hồi lại trong giây lát. Xin cảm ơn.</li>
-      </ul>
-      <div class="footer">
-          <div class="text-box" contenteditable="true" disabled="true"></div>
-          <button id="sendMessage">Gửi</button>
-      </div>
-  </div>
-</div>
+    <button class="custom-btn btn-mix" data-bs-toggle="modal"
+    data-bs-target="#classesModal"><span>Đăng ký ngay </span></button>
+
+    <button
+    type="button"
+    class="button-mix mt-2"
+    data-bs-toggle="modal"
+    data-bs-target="#classesModal"
+  >
+    Đăng ký ngay <i class="bi bi-clipboard-check"></i>
+  </button>
     <!-- JQuery -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
