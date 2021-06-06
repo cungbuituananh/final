@@ -4,6 +4,8 @@ $('.slide-featured').slick({
     slidesToShow: 3,
     arrows: false,
     centerPadding: 10,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 992,
@@ -12,6 +14,8 @@ $('.slide-featured').slick({
           centerMode: true,
           centerPadding: 0,
           slidesToShow: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
         },
       },
       {
@@ -21,6 +25,8 @@ $('.slide-featured').slick({
           centerMode: true,
           centerPadding: 0,
           slidesToShow: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
         },
       },
     ],
