@@ -654,15 +654,11 @@
       </div>
     </div>
 
-    <!-- Chat box -->
    <!-- Messenger Chat Plugin Code -->
    <div id="fb-root"></div>
-
    <!-- Your Chat Plugin code -->
    <div id="fb-customer-chat" class="fb-customerchat">
    </div>
-
-   
 
     <!-- Footer -->
     <footer id="footer">
@@ -756,30 +752,12 @@
     ></script>
     <!-- Isotope -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "104708458358898");
-      chatbox.setAttribute("attribution", "biz_inbox");
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
- 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     <script src="./js/navbar.js"></script>
     <script src="./js/featured.js"></script>
     <script src="./js/filterGallery.js"></script>
     <script src="./js/validation.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/chatbox.js"></script>
     
   </body>
 </html>
