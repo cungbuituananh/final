@@ -296,7 +296,6 @@ li {
 }
 .featured-btn button,
 .about-btn button,
-.event-context button,
 .button-mix {
   border: none;
   padding: 8px 12px;
@@ -308,7 +307,6 @@ li {
   font-weight: 500;
 }
 .featured-btn button a,
-.event-context button a,
 .button-mix:hover {
   color: white;
 }
@@ -359,9 +357,11 @@ li {
   font-weight: 700;
 }
 
-.about-content a,
-.event-context a {
+.about-content a {
   color: #539092;
+}
+.event-context a { 
+  color: white;
 }
 .about-content a:hover,.event-context a:hover {
   color: #539092;
@@ -434,7 +434,8 @@ li {
 .gallery-filter {
   padding-bottom: 20px;
 }
-.gallery-filter button {
+.gallery-filter button,
+.event-context button  {
   border: none;
   padding: 8px 12px;
   margin: 0 4px;
@@ -443,10 +444,12 @@ li {
   font-size: 14px;
   font-weight: 600;
 }
-.gallery-filter button:hover {
+.gallery-filter button:hover,
+.event-context button:hover {
   background-color: #ffffff;
   color: #539092;
 }
+
 .gallery-image {
   overflow: hidden;
   height: 300px;
