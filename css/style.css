@@ -33,7 +33,7 @@ li {
 }
 .social-top a:hover,
 .contact-top a:hover {
-  color: #6610f2;
+  color: #539092;
 }
 .navigation {
   line-height: 50px;
@@ -48,11 +48,17 @@ li {
   }
   .navDesktop li {
     font-size: 16px;
+    opacity: 0.6;
   }
   .navDesktop ul {
     gap: 16px;
   }
+  .navDesktop ul > li:hover {
+    font-weight: 450;
+    opacity: 1;
+  }
   .navDesktop li:hover a {
+  
     color: white;
   }
   .dropdown-btn {
@@ -70,7 +76,7 @@ li {
     line-height: 32px;
   }
   .dropdown-container li:hover a {
-    color: #6610f2 !important;
+    color: #539092 !important;
   }
   .dropdown-container li a {
     width: 100%;
@@ -112,7 +118,7 @@ li {
 }
 
 .member-item i {
-  color: #6610f2;
+  color: #539092;
 }
 .team-sub-image {
   overflow: hidden;
@@ -145,7 +151,7 @@ li {
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.247);
-  background-color: #6610f2;
+  background-color: #539092;
   overflow-x: hidden;
   transition: 0.9s;
 }
@@ -192,7 +198,7 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #6610f2;
+  background-color: #539092;
   z-index: 10;
 }
 
@@ -229,7 +235,7 @@ li {
 .intro .line {
   width: 80px;
   height: 2px;
-  background-color: #6610f2;
+  background-color: #539092;
 }
 
 /* Featured  */
@@ -295,8 +301,8 @@ li {
   border: none;
   padding: 8px 12px;
   border-radius: 50px;
-  background-color: #6610f2;
-  border: 1px solid #6610f2;
+  background-color: #539092;
+  border: 1px solid #539092;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -307,15 +313,14 @@ li {
   color: white;
 }
 
-.featured-btn:hover button,
 .price-item button:hover {
   background-color: rgba(255, 255, 255, 0.781);
-  color: #6610f2;
-  border: 1px solid #6610f2;
+  color: #539092;
+  border: 1px solid #539092;
 }
-.featured-btn:hover button a {
-  color: #6610f2;
-}
+/* .featured-btn:hover button a {
+  color: #539092;
+} */
 .featured-classes {
   position: relative;
 }
@@ -354,18 +359,19 @@ li {
   font-weight: 700;
 }
 
-.about-content a {
-  color: #6610f2;
+.about-content a,
+.event-context a {
+  color: #539092;
 }
-.about-content a:hover {
-  color: #6610f2;
+.about-content a:hover,.event-context a:hover {
+  color: #539092;
   font-weight: 500;
 }
 .line {
   margin-bottom: 36px;
   width: 80px;
   height: 2px;
-  background: #6610f2;
+  background: #539092;
 }
 
 /* Schedule */
@@ -432,16 +438,14 @@ li {
   border: none;
   padding: 8px 12px;
   margin: 0 4px;
-  border-radius: 50px;
-  background-color: #6610f2;
-  border: 1px solid #6610f2;
+  background-color: #539092;
   color: white;
   font-size: 14px;
   font-weight: 600;
 }
 .gallery-filter button:hover {
   background-color: #ffffff;
-  color: #6610f2;
+  color: #539092;
 }
 .gallery-image {
   overflow: hidden;
@@ -459,7 +463,7 @@ li {
 }
 .gallery-filter .active {
   background-color: #ffffff;
-  color: #6610f2;
+  color: #539092;
 }
 .show-gallery {
   display: block;
@@ -499,7 +503,7 @@ footer {
   padding: 0 16px;
   border: none;
   border-radius: 0 0.25rem 0.25rem 0;
-  background-color: #6610f2;
+  background-color: #539092;
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -524,7 +528,7 @@ footer a:hover {
   gap: 16px;
 }
 .social-member a {
-  color: #6610f2;
+  color: #539092;
 }
 
 .team-sub-content h2 {
@@ -546,12 +550,12 @@ footer a:hover {
   font-size: 28px;
 }
 .price-item button {
-  border: 1px solid #6610f2;
+  border: 1px solid #539092;
   margin-top: 32px;
   width: 100%;
 }
 .price-tag p {
-  color: #6610f2;
+  color: #539092;
   font-weight: 500;
   font-size: 36px;
 }
@@ -592,7 +596,7 @@ footer a:hover {
 .event-title h2,
 .classes-detail h4 {
   font-weight: 400;
-  color: #6610f2;
+  color: #539092;
 }
 .classes-detail p {
   font-weight: 600;
@@ -609,7 +613,7 @@ footer a:hover {
 }
 
 .accordion-button:not(.collapsed) {
-  color: #6610f2 !important;
+  color: #539092 !important;
   background: none !important;
   font-weight: 600;
 }
@@ -635,7 +639,7 @@ button {
   width: 130px;
   height: 40px;
   padding: 10px 25px;
-  border: 2px solid #6610f2;
+  border: 2px solid #539092;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   background: transparent;
@@ -646,7 +650,7 @@ button {
 }
 
 .btn-mix {
-  background: #6610f2;
+  background: #539092;
  color: #fff;
  line-height: 42px;
  padding: 0;
@@ -665,7 +669,7 @@ button {
  content: "";
  height: 0%;
  width: 2px;
- background: #6610f2;
+ background: #539092;
  
 }
 .btn-mix:before {
@@ -679,7 +683,7 @@ button {
  transition: all 500ms ease;
 }
 .btn-mix:hover{
- color: #6610f2;
+ color: #539092;
  background: transparent;
 }
 .btn-mix:hover:before {
@@ -694,7 +698,7 @@ button {
 .btn-mix span:after {
  position: absolute;
  content: "";
- background: #6610f2;
+ background: #539092;
 }
 .btn-mix span:before {
  left: 0;
