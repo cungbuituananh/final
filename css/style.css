@@ -361,9 +361,10 @@ li {
   color: #539092;
 }
 .event-context a { 
-  color: white;
+  color: #539092;
 }
-.about-content a:hover,.event-context a:hover {
+.about-content a:hover,
+.event-context a:hover {
   color: #539092;
   font-weight: 500;
 }
